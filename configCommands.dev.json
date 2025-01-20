@@ -42,7 +42,7 @@
   "envEvents": {
     "logsbot": {
       "allow": true
-    }
+    },
   "commandUnload": [
    
   ]
