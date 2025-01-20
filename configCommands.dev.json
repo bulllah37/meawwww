@@ -26,6 +26,12 @@
     "dhbc": {
       "reward": 1000
     },
+    "quiz": {
+      "reward": 0
+    },
+    "wanted2": {
+      "deltaNext": 5
+    },
     "cry": {
       "deltaNext": 5
     },
@@ -42,8 +48,9 @@
   "envEvents": {
     "logsbot": {
       "allow": true
-    },
+    }
+  },
   "commandUnload": [
-   
+    ""
   ]
 }
