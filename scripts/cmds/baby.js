@@ -112,10 +112,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
       });
     }, event.messageID);
 
-  } catch (error) {
-    console.error(error);
-    return api.sendMessage("An error occurred. Check the console for details.", event.threadID, event.messageID);
-  }
+ 
 };
 
 module.exports.onReply = async ({ api, event, Reply }) => {
